@@ -1,8 +1,8 @@
 # FakeChatbot
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fake_chatbot`. To experiment with that code, run `bin/console` for an interactive prompt.
+An Fake chatbot reply for chinese chatbot,
 
-TODO: Delete this and the text above, and describe your gem
+inspired by https://segmentfault.com/a/1190000017375462
 
 ## Installation
 
@@ -22,7 +22,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+'在嗎?'.fake_chatbot
+# 在!
+```
+
+```
+'你好'.fake_chatbot
+# 你好
+```
+
+```
+'能聽懂中文嗎??'.fake_chatbot
+# 能聽懂中文!!
+```
+
+```
+'真的嗎?'.fake_chatbot
+# 真的!
+```
 
 ## Development
 
