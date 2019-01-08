@@ -23,21 +23,17 @@ Or install it yourself as:
 ## Usage
 
 ```
+require 'fake_chatbot'
+
 '在嗎?'.fake_chatbot
 # 在!
-```
 
-```
 '你好'.fake_chatbot
 # 你好
-```
 
-```
 '能聽懂中文嗎??'.fake_chatbot
 # 能聽懂中文!!
-```
 
-```
 '真的嗎?'.fake_chatbot
 # 真的!
 ```
